@@ -4,10 +4,10 @@ spring:
   application:
     name: Address
   datasource:
-    url: jdbc:sql://localhost:3306/spr
-    username: root
-    password: Lion
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:postgresql://dss_pnze_user:RUX8GPm5Yi1KGnCt84XRjoLGNpcZ0uCN@dpg-d1h7bi7fte5s739dpfeg-a/dss_pnze
+    username: dss_pnze_user
+    password: RUX8GPm5Yi1KGnCt84XRjoLGNpcZ0uCN
+    driver-class-name: org.postgresql.Driver
   jpa:
     show-sql: true
     hibernate:
