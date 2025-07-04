@@ -1,10 +1,11 @@
 server:
   port: 8081
+
 spring:
   application:
     name: Address
   datasource:
-     url: jdbc:postgresql://dpg-d1h7bi7fte5s739dpfeg-a.oregon-postgres.render.com:5432/dss_pnze
+    url: jdbc:postgresql://dpg-d1h7bi7fte5s739dpfeg-a.oregon-postgres.render.com:5432/dss_pnze
     username: dss_pnze_user
     password: RUX8GPm5Yi1KGnCt84XRjoLGNpcZ0uCN
     driver-class-name: org.postgresql.Driver
